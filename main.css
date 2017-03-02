@@ -1,0 +1,67 @@
+/* CSS Document */
+* {
+	margin: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-sizing: border-box;
+	
+}
+.startQuizCont {
+	text-align: center;
+}
+.startQuizCont button {
+	
+	font-size: 1.5em;
+	padding: 10px;
+	
+}
+
+.questionsCont {
+	border-bottom: green 1px dotted;
+}
+
+.questionList li button{
+	width: 10em;
+	height: 3em;
+	margin: 0;
+
+}
+.questionList ul,li{
+	list-style: none;
+}
+
+.hideQuestions {
+	display: none;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+p {
+	max-width: 400px;
+}
+
+.container {
+	padding: 0 60px;
+	padding-top: 90px;
+}
+
+.user-was-correct::before {
+	content: "Shhhh!!!!! (";
+}
+
+.user-was-correct::after {
+	content: ")";
+}
+
+.user-was-incorrect {
+	font-size: 50px;
+	color: red;
+}
